@@ -1,2 +1,4 @@
+.. _prerequisites:
+
 Gathering Prerequisites
 =======================

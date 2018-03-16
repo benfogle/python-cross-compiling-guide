@@ -24,12 +24,20 @@ least the *idea* of cross compiling. While I'm trying to make this as
 accessible as possible, cross-compiling is an advanced topic and this is not
 meant to be an introductory text.
 
-Format
-------
+Format and scope
+----------------
 
 This guide is presented as a series of topics, more-or-less in the order you'll
 need to do them in. Alongside each step is a case study (Android) to provide
 concrete examples.
+
+This guide covers the case where both the build and host platforms are
+Unix-like. Windows, as either a host or build platform, is not supported.
+
+We also strongly recommend Python 3.5 or greater. As covered in
+:ref:`prerequisites`, a lot of work as gone into recent versions of Python to
+make cross-compiling easier, and may actually be less work to upgrade your
+codebase than to patch an old version of Python.
 
 The Guide
 =========
